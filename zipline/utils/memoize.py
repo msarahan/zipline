@@ -20,7 +20,7 @@ class lazyval(object):
     >>> from zipline.utils.memoize import lazyval
     >>> class C(object):
     ...     def __init__(self):
-    ...         self.count = 0
+    ...         self.count = 0fdfd
     ...     @lazyval
     ...     def val(self):
     ...         self.count += 1
